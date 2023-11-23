@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="autoscrolls" type="boolean" value="true"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1280, 720]"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="540" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+              <Component id="jLabel2" min="-2" pref="1140" max="-2" attributes="0"/>
+              <EmptySpace pref="77" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+              <Component id="jLabel2" min="-2" pref="387" max="-2" attributes="0"/>
+              <EmptySpace pref="172" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="48" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#xda;tmutat&#xf3;"/>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[200, 58]"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vissza"/>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[80, 23]"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xda;j j&#xe1;t&#xe9;k"/>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[80, 23]"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;- A j&#xe1;t&#xe9;k ind&#xed;t&#xe1;sa el&#x151;tt v&#xe1;lassza ki a neh&#xe9;zs&#xe9;gi szintet ( Kezd&#x151;, Norm&#xe1;l, Halad&#xf3;). &lt;br&gt;&#xa;- Ha ez megvan, elnevezheti a parkj&#xe1;t (ezen a n&#xe9;ven fog beker&#xfc;lni a toplist&#xe1;ba). &lt;br&gt;&#xa;- Ezt k&#xf6;vet&#x151;en beker&#xfc;l a f&#x151; j&#xe1;t&#xe9;kt&#xe9;rre. Itt l&#xe1;that&#xf3; a j&#xe1;t&#xe9;kmez&#x151;n k&#xed;v&#xfc;l a bolt gombja, a park p&#xe9;nze, boldogs&#xe1;gi szintje, az id&#x151; (nap, &#xf3;ra, perc), illetve az  &lt;br&gt;&#xa;  ut&#xf3;bbit kezel&#x151; gombok (gyors&#xed;t&#xe1;s, lass&#xed;t&#xe1;s, meg&#xe1;ll&#xed;t&#xe1;s). &lt;br&gt;&#xa;- A bolt gombra nyomva megny&#xed;lik egy ablak, ahol 3 kateg&#xf3;ria k&#xf6;z&#xfc;l lehet v&#xe1;lasztani (J&#xe1;t&#xe9;kok, Kieg&#xe9;sz&#xed;t&#x151;k &#xe9;s Alkalmazottak). &lt;br&gt;&#xa;- A k&#xe9;pek alatt az adott t&#xe1;rgy/j&#xe1;t&#xe9;k &#xe1;ra &#xe9;s a fentart&#xe1;s&#xe1;nak k&#xf6;lcs&#xe9;ge l&#xe1;that&#xf3;. Megvenni a k&#xe9;pre val&#xf3; kattint&#xe1;ssal lehet. &lt;br&gt;&#xa;- Lehelyez&#xe9;skor a j&#xe1;t&#xe9;k jelzi, hogy hova lehet lerakni (csak, ha z&#xf6;ld akkor tudjuk letenni). &lt;br&gt;&#xa;- Minden csak utak m&#xe9;ll&#xe9; ker&#xfc;lhet le. &lt;br&gt;&#xa;- Vannak olyan t&#xe1;rgyak (mint p&#xe9;ld&#xe1;ul az &#xfa;t), amikb&#x151;l egyszerre t&#xf6;bbet is le lehet rakni. &lt;br&gt;&#xa;- Ha meg szeretn&#xe9;nk szak&#xed;tani a v&#xe1;s&#xe1;rl&#xe1;st, az als&#xf3; s&#xe1;v k&#xf6;zep&#xe9;n l&#xe9;v&#x151; &quot;V&#xe1;s&#xe1;rl&#xe1;s megszak&#xed;t&#xe1;sa&quot; gomb seg&#xed;ts&#xe9;g&#xe9;vel tehetj&#xfc;k ezt meg. &lt;br&gt;&#xa;- A j&#xe1;t&#xe9;kokra &#xe9;s az ott dolgoz&#xf3;k &#xe9;p&#xfc;leteire r&#xe1;kattintva meg lehet n&#xe9;zni azok szintj&#xe9;t &#xe9;s bev&#xe9;tel&#xe9;lt. Ha a park &#xe9;pp z&#xe1;rva van (22 &#xe9;s 8 &#xf3;ra k&#xf6;z&#xf6;tt van), &lt;br&gt;&#xa;  akkor lehets&#xe9;ges ezek fejleszt&#xe9;se (3-as szintig) &#xe9;s rombol&#xe1;sa. &lt;br&gt;&#xa;- A j&#xe1;t&#xe9;knak akkor van v&#xe9;ge, ha a park p&#xe9;nze minuszba megy, vagy ha a j&#xe1;t&#xe9;kos &#xfa;gy d&#xf6;nt, hogy &#x151; ki szeretne l&#xe9;pni. Ilyenkor minden ment&#x151;dik &#xe9;s &lt;br&gt;&#xa;  beker&#xfc;l a toplist&#xe1;ba, ha jobb eredm&#xe9;nyt &#xe9;rt el az el&#x151;z&#x151;ekhez k&#xe9;pest. &lt;br&gt;&#xa;&lt;/html&gt;"/>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[1280, 720]"/>
+        </Property>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
